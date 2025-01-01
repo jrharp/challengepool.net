@@ -7,9 +7,7 @@ This is a modified version of the KeyHunt software that has been modified to wor
 
 Download the required version for your NVidia GPU.
 
-Current version can be found here
-
-https://github.com/jrharp/challengepool.net/releases
+[Current Version of client software can be found here](https://github.com/jrharp/challengepool.net/releases)
 
 This has been setup to run on a WSL2 Ubuntu instance, I have been using 22.04.  I currently have no plans to compile for windows.  This will install the dependences for the client software for WSL2, if you have a pure Linux environment you will need to also install the relevant NVIDIA driver and CUDA runtime for your system.  Other required dependences can be found in the install_cuda.sh.
 
