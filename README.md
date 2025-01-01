@@ -7,11 +7,9 @@ This is a modified version of the KeyHunt software that has been modified to wor
 
 Download the required version for your NVidia GPU.
 
-- ccap_61.tar.gz - GTX 10 Series - 1e8172af47ac046ab1639d988c64d7b5970647f3dfdfbc601d47991d51c78b57
-- ccap_70.tar.gz - TITAN V          - 89ff2d92be4f82b3d3b79df73afd190860fe1cac5d3cb20f8b586ad5bbc70f88
-- ccap_75.tar.gz - RTX 20 Series - 80f04c8e75b277fd5fab6d48fe4aa73ef578c93aa30f238cae22715180edde06
-- ccap_86.tar.gz - RTX 30 Series - 947503b14941a8a695e91eac28fa36d3a759ea76addb0c19b84b16c7a822ba48
-- ccap_89.tar.gz - RTX 40 Series - fe7bc715e479a9bcef5eaecc6f2215f384d847f99512e8f25cd067cbcab6c3ee
+Current version can be found here
+
+https://github.com/jrharp/challengepool.net/releases
 
 This has been setup to run on a WSL2 Ubuntu instance, I have been using 22.04.  I currently have no plans to compile for windows.  This will install the dependences for the client software for WSL2, if you have a pure Linux environment you will need to also install the relevant NVIDIA driver and CUDA runtime for your system.  Other required dependences can be found in the install_cuda.sh.
 
