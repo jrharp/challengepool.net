@@ -1,4 +1,6 @@
-**Version 1.0 for initial public testing**
+**Version 1.0.1 for public testing**
+
+This release should fix an issue that the client was having if connection was lost to the server.  It also updates to cuda 12.8 in preparation for the Nvidia 50 series GPUS.  Once a ccap version is announced I will build and publish the client for them.
 
 Website https://www.challengepool.net/
 
@@ -6,12 +8,15 @@ This is a modified version of the KeyHunt software that has been modified to wor
 
 Download the required version for your NVidia GPU.
 
-- ccap_61.tar.gz - GTX 10 Series - 1e8172af47ac046ab1639d988c64d7b5970647f3dfdfbc601d47991d51c78b57
-- ccap_70.tar.gz - TITAN V          - 89ff2d92be4f82b3d3b79df73afd190860fe1cac5d3cb20f8b586ad5bbc70f88
-- ccap_75.tar.gz - RTX 20 Series - 80f04c8e75b277fd5fab6d48fe4aa73ef578c93aa30f238cae22715180edde06
-- ccap_86.tar.gz - RTX 30 Series - 947503b14941a8a695e91eac28fa36d3a759ea76addb0c19b84b16c7a822ba48
-- ccap_89.tar.gz - RTX 40 Series - fe7bc715e479a9bcef5eaecc6f2215f384d847f99512e8f25cd067cbcab6c3ee
-- ccap_90.tar.gz - H100/H200 - 039abcb4e3912857f342ffa22b0e35566cb673d4770c26dcd7c5eba640dff439
+ccap_61.tar.gz - GTX 10 Series - a660464e4ecd52bf54d5a81d712041ac424925833e7b707d1010a1fd69991016
+ccap_70.tar.gz - TITAN V - 495d01352080951ed49f1f6b119781cafad3332caff128aa3386f7021a7d3f41
+ccap_75.tar.gz - RTX 20 Series - 7e6c381ce04ace288177f5a53b6fd27a45d863d658ffd69403fdcb630237cf29
+ccap_61.tar.gz - GTX 10 Series - 57ad4f81247ca8f27fea1a74491fac75e08314ad2b01be43f918cf494269401e
+ccap_70.tar.gz - TITAN V - afae956b1f43edccaf3eda1956d99ec918b4542281aff3d2b0b7b0cb1526d905
+ccap_75.tar.gz - RTX 20 Series - daf373090fa47071af1d021ba4650534b375bb401cb543afef82308c1ed7f9a3
+ccap_86.tar.gz - RTX 30 Series - e95b01c3c1a6c83d1c90b27d94db659a5910f36c691e9db9d35efa30d4dfb515
+ccap_89.tar.gz - RTX 40 Series - 2338ef0c3543e8d2783ded3c2e7102952bca983e6789d4dd4c67e021d8ebd172
+ccap_90.tar.gz - H100/H200 - 200b10042604d114c5ef5b362adfc88083594314ae89e58c8ea1921b120ee0c7
 
 If you would like to run on Docker, I have found that this image will run the program out of the box without the need to install dependencies.
 
