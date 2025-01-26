@@ -1,6 +1,6 @@
 **Version 1.0.1 for public testing**
 
-This release should fix an issue that the client was having if connection was lost to the server.  It also updates to cuda 12.8 in preparation for the Nvidia 50 series GPUS.  Once a ccap version is announced I will build and publish the client for them.
+This release should fix an issue that the client was having if connection was lost to the server.  It also updates to cuda 12.8 in preparation for the Nvidia 50 series GPUS.  I beleiave that the RTX 50 Seriese will be verson 10.0 so I have built for that.
 
 Website https://www.challengepool.net/
 
@@ -8,15 +8,14 @@ This is a modified version of the KeyHunt software that has been modified to wor
 
 Download the required version for your NVidia GPU.
 
-ccap_61.tar.gz - GTX 10 Series - a660464e4ecd52bf54d5a81d712041ac424925833e7b707d1010a1fd69991016
-ccap_70.tar.gz - TITAN V - 495d01352080951ed49f1f6b119781cafad3332caff128aa3386f7021a7d3f41
-ccap_75.tar.gz - RTX 20 Series - 7e6c381ce04ace288177f5a53b6fd27a45d863d658ffd69403fdcb630237cf29
-ccap_61.tar.gz - GTX 10 Series - 57ad4f81247ca8f27fea1a74491fac75e08314ad2b01be43f918cf494269401e
-ccap_70.tar.gz - TITAN V - afae956b1f43edccaf3eda1956d99ec918b4542281aff3d2b0b7b0cb1526d905
-ccap_75.tar.gz - RTX 20 Series - daf373090fa47071af1d021ba4650534b375bb401cb543afef82308c1ed7f9a3
-ccap_86.tar.gz - RTX 30 Series - e95b01c3c1a6c83d1c90b27d94db659a5910f36c691e9db9d35efa30d4dfb515
-ccap_89.tar.gz - RTX 40 Series - 2338ef0c3543e8d2783ded3c2e7102952bca983e6789d4dd4c67e021d8ebd172
-ccap_90.tar.gz - H100/H200 - 200b10042604d114c5ef5b362adfc88083594314ae89e58c8ea1921b120ee0c7
+- [`ccap_61.tar.gz`](https://github.com/jrharp/challengepool.net/releases/download/v1.0.1/ccap_61.tar.gz) - GTX 10 Series - `57ad4f81247ca8f27fea1a74491fac75e08314ad2b01be43f918cf494269401e`
+- [`ccap_70.tar.gz`](https://github.com/jrharp/challengepool.net/releases/download/v1.0.1/ccap_70.tar.gz) - TITAN V - `afae956b1f43edccaf3eda1956d99ec918b4542281aff3d2b0b7b0cb1526d905`
+- [`ccap_75.tar.gz`](https://github.com/jrharp/challengepool.net/releases/download/v1.0.1/ccap_75.tar.gz) - RTX 20 Series - `daf373090fa47071af1d021ba4650534b375bb401cb543afef82308c1ed7f9a3`
+- [`ccap_86.tar.gz`](https://github.com/jrharp/challengepool.net/releases/download/v1.0.1/ccap_86.tar.gz) - RTX 30 Series - `e95b01c3c1a6c83d1c90b27d94db659a5910f36c691e9db9d35efa30d4dfb515`
+- [`ccap_89.tar.gz`](https://github.com/jrharp/challengepool.net/releases/download/v1.0.1/ccap_89.tar.gz) - RTX 40 Series - `2338ef0c3543e8d2783ded3c2e7102952bca983e6789d4dd4c67e021d8ebd172`
+- [`ccap_90.tar.gz`](https://github.com/jrharp/challengepool.net/releases/download/v1.0.1/ccap_90.tar.gz) - H100/H200 - `200b10042604d114c5ef5b362adfc88083594314ae89e58c8ea1921b120ee0c7`
+- [`ccap_100.tar.gz`](https://github.com/jrharp/challengepool.net/releases/download/v1.0.1/ccap_100.tar.gz) - RTX 50 Series - `6eafcf7f566fd426fe8f65f29864069010aa605894bc79e988d76628278cbb4f`
+
 
 If you would like to run on Docker, I have found that this image will run the program out of the box without the need to install dependencies.
 
