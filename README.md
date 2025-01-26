@@ -8,13 +8,13 @@ This is a modified version of the KeyHunt software that has been modified to wor
 
 Download the required version for your NVidia GPU.
 
-ccap_61.tar.gz - GTX 10 Series - 57ad4f81247ca8f27fea1a74491fac75e08314ad2b01be43f918cf494269401e
-ccap_70.tar.gz - TITAN V - afae956b1f43edccaf3eda1956d99ec918b4542281aff3d2b0b7b0cb1526d905
-ccap_75.tar.gz - RTX 20 Series - daf373090fa47071af1d021ba4650534b375bb401cb543afef82308c1ed7f9a3
-ccap_86.tar.gz - RTX 30 Series - e95b01c3c1a6c83d1c90b27d94db659a5910f36c691e9db9d35efa30d4dfb515
-ccap_89.tar.gz - RTX 40 Series - 2338ef0c3543e8d2783ded3c2e7102952bca983e6789d4dd4c67e021d8ebd172
-ccap_90.tar.gz - H100/H200 - 200b10042604d114c5ef5b362adfc88083594314ae89e58c8ea1921b120ee0c7
-ccap_100.tar.gz - RTX 50 Series - 6eafcf7f566fd426fe8f65f29864069010aa605894bc79e988d76628278cbb4f
+- `ccap_61.tar.gz` - GTX 10 Series - `57ad4f81247ca8f27fea1a74491fac75e08314ad2b01be43f918cf494269401e`
+- `ccap_70.tar.gz` - TITAN V - `afae956b1f43edccaf3eda1956d99ec918b4542281aff3d2b0b7b0cb1526d905`
+- `ccap_75.tar.gz` - RTX 20 Series - `daf373090fa47071af1d021ba4650534b375bb401cb543afef82308c1ed7f9a3`
+- `ccap_86.tar.gz` - RTX 30 Series - `e95b01c3c1a6c83d1c90b27d94db659a5910f36c691e9db9d35efa30d4dfb515`
+- `ccap_89.tar.gz` - RTX 40 Series - `2338ef0c3543e8d2783ded3c2e7102952bca983e6789d4dd4c67e021d8ebd172`
+- `ccap_90.tar.gz` - H100/H200 - `200b10042604d114c5ef5b362adfc88083594314ae89e58c8ea1921b120ee0c7`
+- `ccap_100.tar.gz` - RTX 50 Series - `6eafcf7f566fd426fe8f65f29864069010aa605894bc79e988d76628278cbb4f`
 
 If you would like to run on Docker, I have found that this image will run the program out of the box without the need to install dependencies.
 
