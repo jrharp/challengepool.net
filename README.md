@@ -1,6 +1,6 @@
 **Version 1.0.1 for public testing**
 
-This release should fix an issue that the client was having if connection was lost to the server.  It also updates to cuda 12.8 in preparation for the Nvidia 50 series GPUS.  I beleiave that the RTX 50 Seriese will be verson 10.0 so I have built for that.
+This release should fix an issue that the client was having if connection was lost to the server.  It also updates to cuda 12.8 in preparation for the Nvidia 50 series GPUS.
 
 Website https://www.challengepool.net/
 
@@ -14,7 +14,7 @@ Download the required version for your NVidia GPU.
 - [`ccap_86.tar.gz`](https://github.com/jrharp/challengepool.net/releases/download/v1.0.1/ccap_86.tar.gz) - RTX 30 Series - `e95b01c3c1a6c83d1c90b27d94db659a5910f36c691e9db9d35efa30d4dfb515`
 - [`ccap_89.tar.gz`](https://github.com/jrharp/challengepool.net/releases/download/v1.0.1/ccap_89.tar.gz) - RTX 40 Series - `2338ef0c3543e8d2783ded3c2e7102952bca983e6789d4dd4c67e021d8ebd172`
 - [`ccap_90.tar.gz`](https://github.com/jrharp/challengepool.net/releases/download/v1.0.1/ccap_90.tar.gz) - H100/H200 - `200b10042604d114c5ef5b362adfc88083594314ae89e58c8ea1921b120ee0c7`
-- [`ccap_100.tar.gz`](https://github.com/jrharp/challengepool.net/releases/download/v1.0.1/ccap_100.tar.gz) - RTX 50 Series - `6eafcf7f566fd426fe8f65f29864069010aa605894bc79e988d76628278cbb4f`
+- [`ccap_120.tar.gz`](https://github.com/jrharp/challengepool.net/releases/download/v1.0.1/ccap_120.tar.gz) - RTX 50 Series - `a7f081727103ab9f8fdcd733ff93a99491604389e7589c765653c33619a8538b`
 
 
 If you would like to run on Docker, I have found that this image will run the program out of the box without the need to install dependencies.
